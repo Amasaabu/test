@@ -3,6 +3,7 @@
   min-height: 100vh;
   min-height: 100vw;
   display: flex;
+  padding: 20px;
 }
 
 .search {
@@ -10,4 +11,16 @@
 }
 .cards {
   width: 65%;
+}
+@media (max-width: 600px) {
+  .container {
+    display: block;
+    width: 100%;
+  }
+  .search {
+    width: 80%;
+  }
+  .cards {
+    width: 90%;
+  }
 }
