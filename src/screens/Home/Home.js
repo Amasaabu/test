@@ -27,8 +27,10 @@ const Home = () => {
   const sortByName = (input) => {
     console.log(input);
     const filter = games.filter((it) => {
-      return it.name.toString() === input.toString();
+      return it.name.toLowerCase().includes(input.toLowerCase());
     });
+    console.log(input);
+    console.log(filter);
     if (filter.length) {
       setGames(filter);
     }

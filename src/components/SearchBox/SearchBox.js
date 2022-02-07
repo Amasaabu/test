@@ -13,6 +13,7 @@ const SearchBox = (props) => {
       />
       <label>Orderby</label>
       <select onChange={props.sortBySeclect}>
+        <option value="ratings">options</option>
         <option value="ratings">ratings</option>
         <option value="date">date</option>
       </select>
