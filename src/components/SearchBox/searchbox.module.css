@@ -19,7 +19,15 @@ select {
   height: 34px;
   border: 1px solid;
 }
-
+button {
+  display: block;
+  background-color: #182c47;
+  color: #ffff;
+  width: 200px;
+  border: none;
+  height: 40px;
+  margin-top: 30px;
+}
 @media (max-width: 600px) {
   .container {
     width: fit-content;
