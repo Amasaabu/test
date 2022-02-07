@@ -1,0 +1,21 @@
+.container {
+  width: 80%;
+  margin: auto;
+  min-height: 50vh;
+  background-color: #0e1a2b;
+  padding: 10px;
+}
+
+.header {
+  color: #ffff;
+}
+label {
+  display: block;
+  color: #c1d1e8;
+}
+input,
+select {
+  background-color: #182c47;
+  height: 34px;
+  border: 1px solid;
+}

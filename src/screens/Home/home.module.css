@@ -1,0 +1,13 @@
+.container {
+  background-image: linear-gradient(#081221, #03080f);
+  min-height: 100vh;
+  min-height: 100vw;
+  display: flex;
+}
+
+.search {
+  width: 25%;
+}
+.cards {
+  width: 65%;
+}
